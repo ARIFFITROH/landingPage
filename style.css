@@ -1,0 +1,115 @@
+/* Navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 30px;
+    
+}
+
+.navbar img {
+width: 55px;
+padding-top: 3px;
+}
+
+.jumbotron{
+    background-image: url(asset/img/Img1.jpg);
+    background-size: cover;
+    height: 570px;
+   
+}
+
+.d-flex {
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    background-color: #007bff;
+}
+
+/* Utility */
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+.footer{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+.jumbotron .display-4{
+color: #0e2640;
+font-family: days one;
+font-size: 70pt;
+
+padding-bottom: 0px;
+}
+
+.imgj{
+    width: 50px;
+    margin-top: 380px;
+    position:fixed;
+    margin-left: 50px;
+}
+
+.imgj2{
+    width: 75px;
+    margin-top: 375px;
+    position:fixed;
+    margin-left: 130px;
+}
+
+.jumbotron .lead{
+    color: #0e2640;
+    font-family: days one;
+    font-size: 14pt;
+    padding: 0 0 0 0;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+
+/* DEKSTOP VERSION */
+@media (min-width: 992px) { 
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 15px;
+}
+
+.navbar-brand, .nav-link{
+    text-shadow: 4px 4px 4px rgba(0 0 0 alpha);
+}
+
+.nav-link:hover::after {
+content:'';
+display: block;
+border-bottom: 3px solid #0062cc;
+width: 50%;
+margin: auto;
+padding-bottom: 5Px;
+margin-bottom: -8px;
+}
+
+.jumbotron{
+    margin-top: -75px;
+}
+
+    .jumbotron .display-4{
+    color: #0e2640;
+    font-family: days one;
+    font-size: 100pt;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    }
+
+    .jumbotron .lead{
+    color: #0e2640;
+    font-family: days one;
+    font-size: 24pt;
+    padding: 0 0 0 0;
+    text-align: left;
+    padding-bottom: 30px;
+    }
+
+}
